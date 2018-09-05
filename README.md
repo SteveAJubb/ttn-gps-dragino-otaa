@@ -5,5 +5,5 @@ This  can be used with the instructions at https://github.com/VojislavM/dragino-
 OTAA (over-the-air-activation) rather than ABP (activation-by-personalisation).
 
 Files included are:
-Arduino IDE sketch
+Arduino IDE sketch  
 TTN console decoder function for use in Application > Payload Format
