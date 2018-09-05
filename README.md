@@ -6,4 +6,4 @@ OTAA (over-the-air-activation) rather than ABP (activation-by-personalisation).
 
 Files included are:  
 Arduino IDE sketch  
-TTN console decoder function for use in Application > Payload Format
+TTN console decoder function for use in Applications > Payload Format
