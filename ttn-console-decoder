@@ -1,0 +1,15 @@
+function Decoder (bytes) {
+var latitude = ((((bytes[0] << 16) | (bytes [1] << 8) | bytes [2]) * 180) / 16777215) - 90;
+var longitude = ((((bytes[3] << 16) | (bytes [4] << 8) | bytes [5]) * 360) / 16777215) - 180;
+var altitude = (bytes[6] << 8) | bytes [7];
+var hdop = bytes [8];
+
+return {
+
+hdop: hdop,
+altitude: altitude,
+longitude: longitude,
+latitude: latitude,
+
+};
+}
