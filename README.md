@@ -8,4 +8,4 @@ Files included are:
 Arduino IDE sketch  
 TTN console decoder function for use in Applications > Payload Format
 
-Note: When the Arduino starts it will about ten minutes for the activation to complete and you will see multiple join requests on the console (I haven't checked but it appears to cycle through each channel) so be patient waiting for your data to be transmitted). Once the activation is completed the payloads are sent at whatever frequency you've specified.
+Note: When the Arduino starts it will take about ten minutes for the activation to complete and you will see multiple join requests on the console (I haven't checked but it appears to cycle through each channel) so be patient waiting for your data to be transmitted). Once the activation is completed the payloads are sent at whatever frequency you've specified.
